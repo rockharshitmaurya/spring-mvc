@@ -49,7 +49,7 @@
 							<th>Title</th>
 							<th>Content</th>
 						</tr>
-						<c:forEach var="todoItem" items="${list}">
+						<c:forEach var="todoItem" items="${all_data}">
 							<td>${todoItem.title}</td>
 							<td>${todoItem.content}</td>
 						</c:forEach>

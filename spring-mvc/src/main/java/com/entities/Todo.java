@@ -9,6 +9,11 @@ public class Todo {
         this.content = content;
         this.date = date;
     }
+
+    public Todo(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
     public Todo(){
         super();
     }
